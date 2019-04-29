@@ -1,0 +1,54 @@
+div {
+    font-family: "Arial", sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+
+.axis {
+    font-size: 13px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    display: none;
+}
+
+.label {
+    font-size: 13px;
+}
+
+.tooltip {
+    background: gray;
+    border: 0;
+    border-radius: 8px;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    color: white;
+}
+
+.tooltip span {
+  font-size: 12px;
+}

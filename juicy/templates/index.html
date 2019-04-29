@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <div class="container">
+    <h1>{% block title %}Juicy App{% endblock %}</h1>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <a class="btn btn-info" href="{{ url_for('products.product_count') }}" role="button">Product Count in Json</a>
+    <a class="btn btn-info" href="{{ url_for('products.calories') }}" role="button">Product Calories in Json</a>
+    <a class="btn btn-info" href="{{ url_for('products.ingredients') }}" role="button">Ingredient Index</a>
+  </div>
+{% endblock %}
